@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOYOTA</title>
+    <link rel="stylesheet" href="n.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+  <h2>مرحبا بكم في وكيل تويوتا ليبيا</h2>
+    
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home" class="active">الرئيسية</a></li>
+      <li><a href="#products">المنتجات</a></li>
+      <li><a href="#contact">تواصل معنا</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- قسم الرئيسية -->
+    <section id="home" class="section">
+      <!-- صور تتغير تلقائياً -->
+      <div class="slider-box">
+  <img id="slider-image" src="1.jpg" alt="صورة متغيرة">
+  <div class="slider-indicators">
+    <span class="slider-indicator active"></span>
+    <span class="slider-indicator"></span>
+    <span class="slider-indicator"></span>
+  </div>
+</div>
+
+      <!-- قسم التحليلات -->
+      <div class="text-box">
+        <p style="font-size: 30px; font-weight: bold;">تحليل أداء وكيل تويوتا 2025:</p>
+        <div class="charts-headings">
+          <h3>عدد السيارات المباعة لوكيل تويوتا__ليبيا</h3>
+          <h3>أداء المبيعات السنوية لوكيل تويوتا__ليبيا</h3>
+          <h3>النمو السنوي لوكيل تويوتا__ليبيا</h3>
+        </div>
+
+        <div class="charts-container">
+          <div class="chart-box">
+            <canvas id="growthChart3"></canvas>
+          </div>
+          <div class="chart-box">
+            <canvas id="growthChart2"></canvas>
+          </div>
+          <div class="chart-box">
+            <canvas id="growthChart1"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+
+
+<!-- قسم المنتجات -->
+<section id="products" class="section">
+  <div class="text-box">
+    <h2>منتجات الشهر</h2>
+    <p>أكثر المنتجات مبيعاً في الشهر</p>
+  </div>
+  
+  <div class="featured-products">
+    <!-- المنتجات المميزة (3 منتجات) -->
+    <div class="product-item best-seller">
+      <div class="product-badge">الأكثر مبيعاً</div>
+      <a href="prod1.jpg" class="product-link" target="_blank">
+        <img src="prod1.jpg" class="product-image" alt="تويوتا كامري 2023">
+        <div class="product-overlay">
+          <span class="view-btn">عرض التفاصيل</span>
+        </div>
+      </a>
+      <div class="product-info">
+        <h3 class="product-title">تويوتا لاندكروزر 2024</h3>
+        <div class="product-meta">
+          <span class="product-price">510,000 دينار ليبي</span>
+          <span class="product-rating">★★★★★</span>
+        </div>
+        <button class="add-to-cart"> شراء </button>
+      </div>
+    </div>
+    
+    <div class="product-item">
+      <div class="product-badge">جديد</div>
+      <a href="prod3.jpg" class="product-link" target="_blank">
+        <img src="prod3.jpg" class="product-image" alt="تويوتا راف4 2023">
+        <div class="product-overlay">
+          <span class="view-btn">عرض التفاصيل</span>
+        </div>
+      </a>
+      <div class="product-info">
+        <h3 class="product-title">تويوتا هايلكس 2023</h3>
+        <div class="product-meta">
+          <span class="product-price">166,800 دينار ليبي</span>
+          <span class="product-rating">★★★★☆</span>
+        </div>
+        <button class="add-to-cart">  شراء</button>
+      </div>
+    </div>
+    
+    <div class="product-item">
+      <a href="prod2.jpg" class="product-link" target="_blank">
+        <img src="55.jpg" class="product-image" alt="تويوتا كورولا 2025">
+        <div class="product-overlay">
+          <span class="view-btn">عرض التفاصيل</span>
+        </div>
+      </a>
+      <div class="product-info">
+        <h3 class="product-title">تويوتا كورولا 2025</h3>
+        <div class="product-meta">
+          <span class="product-price">161,000 دينار ليبي</span>
+          <span class="product-rating">★★★★★</span>
+        </div>
+        <button class="add-to-cart"> شراء </button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="products-grid">
+    <!-- المنتجات العادية (16 منتج) -->
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="prod2.jpg">
+          <img src="prod2.jpg" alt="تويوتا كامري">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا كامري 2023</h3>
+        <div class="price-box">
+          <span class="current-price">160,000 دينار</span>
+        </div>
+        <button class="add-to-cart"> شراء </button>
+      </div>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="58.webp">
+          <img src="58.webp" alt="تويوتا تندرا 2024 TRD pro">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا تندرا 2024 TRD pro</h3>
+        <div class="price-box">
+          <span class="current-price">525,000 دينار</span>
+        </div>
+        <button class="add-to-cart">  شراء</button>
+      </div>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="59.webp">
+          <img src="59.webp" alt="تويوتا لاندكروزر GR sport">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا لاندكروزر GR sport</h3>
+        <div class="price-box">
+          <span class="current-price">886,300 دينار ليبي</span>
+        </div>
+        <button class="add-to-cart">  شراء</button>
+      </div>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="prod4.jpg">
+          <img src="prod4.jpg" alt="تويوتا هايلكس">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا هايلكس 2023</h3>
+        <div class="price-box">
+          <span class="current-price">180,000 دينار</span>
+        </div>
+        <button class="add-to-cart">شراء  </button>
+      </div>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="prod5.jpg">
+          <img src="prod5.jpg" alt="تويوتا هايلكس 2018">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا هايلكس 2018</h3>
+        <div class="price-box">
+          <span class="current-price">158,000 دينار</span>
+        </div>
+        <button class="add-to-cart">شراء  </button>
+      </div>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="prod6.jpg">
+          <img src="prod6.jpg" alt="تويوتا كورولا">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا لاندكروزر2020</h3>
+        <div class="price-box">
+          <span class="current-price">425,000 دينار</span>
+        </div>
+        <button class="add-to-cart"> شراء </button>
+      </div>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="prod7.jpg">
+          <img src="prod7.jpg" alt="تويوتا يارس">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا شاص 2021</h3>
+        <div class="price-box">
+          <span class="current-price">180,000 دينار</span>
+        </div>
+        <button class="add-to-cart"> شراء </button>
+      </div>
+    </div>
+    
+   
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="prod14.jpg">
+          <img src="prod14.jpg" alt="تويوتا افالون">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا أفالون 2023</h3>
+        <div class="price-box">
+          <span class="current-price">155,000 دينار</span>
+        </div>
+        <button class="add-to-cart"> شراء </button>
+      </div>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="prod10.jpg">
+          <img src="prod10.jpg" alt="تويوتا هايس">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا هايس 2023</h3>
+        <div class="price-box">
+          <span class="current-price">110,000 دينار</span>
+        </div>
+        <button class="add-to-cart"> شراء </button>
+      </div>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="prod11.jpg">
+          <img src="prod11.jpg" alt="تويوتا سي-أتش-آر">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا كامري 2023</h3>
+        <div class="price-box">
+          <span class="current-price">190,000 دينار</span>
+        </div>
+        <button class="add-to-cart">شراء  </button>
+      </div>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="prod12.jpg">
+          <img src="prod12.jpg" alt="تويوتا راش">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا لاندكروزر 2022</h3>
+        <div class="price-box">
+          <span class="current-price">350,000 دينار</span>
+        </div>
+        <button class="add-to-cart">شراء  </button>
+      </div>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="prod13.jpg">
+          <img src="prod13.jpg" alt="تويوتا تندرا">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا كامري 2024</h3>
+        <div class="price-box">
+          <span class="current-price">320,000 دينار</span>
+        </div>
+        <button class="add-to-cart">شراء  </button>
+      </div>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="prod14.jpg">
+          <img src="prod14.jpg" alt="تويوتا سيكويا">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا افالون 2024</h3>
+        <div class="price-box">
+          <span class="current-price">190,000 دينار </span>
+        </div>
+        <button class="add-to-cart"> شراء </button>
+      </div>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="prod15.jpg">
+          <img src="prod15.jpg" alt="تويوتا 4رانر">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا لاندكروزر برادو 2025 </h3>
+        <div class="price-box">
+          <span class="current-price">429,400 دينار ليبي</span>
+        </div>
+        <button class="add-to-cart">  شراء</button>
+      </div>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="prod16.jpg">
+          <img src="prod16.jpg" alt="تويوتا هايس 2023">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>ليكسز 2021 </h3>
+        <div class="price-box">
+          <span class="current-price">320,000 دينار </span>
+        </div>
+        <button class="add-to-cart"> شراء </button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-thumb">
+        <a href="456.webp">
+          <img src="456.webp" alt="تويوتا يارس">
+        </a>
+        <span class="quick-view">عرض سريع</span>
+      </div>
+      <div class="product-details">
+        <h3>تويوتا شاص 2025</h3>
+        <div class="price-box">
+          <span class="current-price">250,000 دينار</span>
+        </div>
+        <button class="add-to-cart">شراء</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="load-more-container">
+    <button class="load-more-btn">عرض المزيد من المنتجات</button>
+  </div>
+</section>
+    <!-- قسم تواصل معنا -->
+<section id="contact" class="section">
+  <div class="contact-container">
+    <!-- نموذج الإضافة -->
+    <form class="contact-form" onsubmit="return validateForm()">
+      <h2>تواصل معنا</h2>
+
+      <label for="name">الاسم:</label>
+      <input type="text" id="name" name="name" required>
+      <div class="error" id="nameError"></div>
+
+      <label for="email">الإيميل:</label>
+      <input type="email" id="email" name="email" required>
+      <div class="error" id="emailError"></div>
+
+      <label for="phone">رقم الهاتف:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <div class="error" id="phoneError"></div>
+
+      <button type="submit">إرسال</button>
+    </form>
+
+    <!-- قسم بطاقات البيانات -->
+    <div class="contacts-cards" id="contactsContainer">
+      <h2>البيانات المضافة</h2>
+      <!-- هنا سيتم عرض البطاقات ديناميكيًا -->
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer>
+  <div class="footer-content">
+    <!-- قسم معلومات الاتصال -->
+    <div class="footer-section">
+      <h3>اتصل بنا</h3>
+      <p>البريد:ezoohamoda@gmail.com</p>
+      <p>الهاتف: +918749275</p>
+    </div>
+
+    <!-- قسم روابط سريعة -->
+    <div class="footer-section">
+      <h3>روابط سريعة</h3>
+      <a href="about.html">من نحن</a>
+      <a href="services.html">الخدمات</a>
+      <a href="contact.html">اتصل بنا</a>
+    </div>
+
+    <!-- قسم وسائل التواصل -->
+    <div class="footer-section">
+      <h3>تابعنا</h3>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- حقوق النشر -->
+  <div class="footer-bottom">
+    <p>جميع الحقوق محفوظة &copy; 2025</p>
+  </div>
+</footer>
+
+  <!-- مكتبة Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // تنقل سلس بين الأقسام
+      document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          
+          document.querySelectorAll('nav a').forEach(link => {
+            link.classList.remove('active');
+          });
+          
+          this.classList.add('active');
+          
+          const targetId = this.getAttribute('href');
+          const targetSection = document.querySelector(targetId);
+          targetSection.scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+      
+      // ********** تحسينات السلايدر **********
+      const sliderBox = document.querySelector('.slider-box');
+      const sliderImage = document.getElementById('slider-image');
+      const slides = [
+        { src: '1.jpg', alt: 'صورة متغيرة 1' },
+        { src: '2.jpg', alt: 'صورة متغيرة 2' },
+        { src: '3.jpg', alt: 'صورة متغيرة 3' }
+      ];
+      let currentSlide = 0;
+      let slideInterval;
+      
+      // إنشاء مؤشرات الشرائح
+      const indicatorsContainer = document.createElement('div');
+      indicatorsContainer.className = 'slider-indicators';
+      
+      slides.forEach((_, index) => {
+        const indicator = document.createElement('span');
+        indicator.className = 'slider-indicator';
+        if (index === 0) indicator.classList.add('active');
+        indicator.addEventListener('click', () => goToSlide(index));
+        indicatorsContainer.appendChild(indicator);
+      });
+      
+      sliderBox.appendChild(indicatorsContainer);
+      
+      // وظائف السلايدر
+      function updateSlider() {
+        sliderImage.src = slides[currentSlide].src;
+        sliderImage.alt = slides[currentSlide].alt;
+        
+        document.querySelectorAll('.slider-indicator').forEach((indicator, index) => {
+          indicator.classList.toggle('active', index === currentSlide);
+        });
+      }
+      
+      function goToSlide(index) {
+        currentSlide = index;
+        updateSlider();
+        resetInterval();
+      }
+      
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        updateSlider();
+      }
+      
+      function resetInterval() {
+        clearInterval(slideInterval);
+        slideInterval = setInterval(nextSlide, 3000);
+      }
+      
+      // أزرار التنقل
+      const prevButton = document.createElement('button');
+      prevButton.innerHTML = '❮';
+      prevButton.className = 'slider-prev';
+      prevButton.addEventListener('click', () => {
+        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+        updateSlider();
+        resetInterval();
+      });
+      
+      const nextButton = document.createElement('button');
+      nextButton.innerHTML = '❯';
+      nextButton.className = 'slider-next';
+      nextButton.addEventListener('click', () => {
+        nextSlide();
+        resetInterval();
+      });
+      
+      sliderBox.appendChild(prevButton);
+      sliderBox.appendChild(nextButton);
+      
+      // بدء السلايدر
+      updateSlider();
+      resetInterval();
+      
+      // تأثيرات hover
+      sliderBox.addEventListener('mouseenter', () => {
+        clearInterval(slideInterval);
+        prevButton.style.opacity = '1';
+        nextButton.style.opacity = '1';
+      });
+      
+      sliderBox.addEventListener('mouseleave', () => {
+        resetInterval();
+        prevButton.style.opacity = '0';
+        nextButton.style.opacity = '0';
+      });
+      
+      // ********** بقية الوظائف الحالية **********
+      // إنشاء الرسوم البيانية
+      createCharts();
+      
+      // إضافة حدث scroll لتحديد القسم النشط
+      window.addEventListener('scroll', function() {
+        const sections = document.querySelectorAll('.section');
+        let currentSection = '';
+        
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          
+          if (pageYOffset >= (sectionTop - 100)) {
+            currentSection = section.getAttribute('id');
+          }
+        });
+        
+        document.querySelectorAll('nav a').forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === `#${currentSection}`) {
+            link.classList.add('active');
+          }
+        });
+      });
+    });
+    
+    // إنشاء الرسوم البيانية
+    function createCharts() {
+      // الرسم البياني 1 (النمو السنوي)
+      const ctx1 = document.getElementById('growthChart1').getContext('2d');
+      new Chart(ctx1, {
+        type: 'line',
+        data: {
+          labels: ['2020', '2021', '2022', '2023', '2024'],
+          datasets: [{
+            label: 'النمو السنوي',
+            data: [120, 150, 180, 210, 250],
+            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 2,
+            tension: 0.1
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+      
+      // الرسم البياني 2 (أداء المبيعات السنوية)
+      const ctx2 = document.getElementById('growthChart2').getContext('2d');
+      new Chart(ctx2, {
+        type: 'bar',
+        data: {
+          labels: ['يناير', 'فبراير', 'مارس', 'أبريل', 'مايو', 'يونيو', 'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر'],
+          datasets: [{
+            label: 'المبيعات الشهرية 2025',
+            data: [20, 25, 18, 22, 30, 28, 35, 32, 40, 38, 42, 45],
+            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+      
+      // الرسم البياني 3 (عدد السيارات المباعة)
+      const ctx3 = document.getElementById('growthChart3').getContext('2d');
+      new Chart(ctx3, {
+        type: 'pie',
+        data: {
+          labels: ['كورولا', 'كامري', 'راف4', 'هايلكس', 'برادو'],
+          datasets: [{
+            label: 'عدد السيارات المباعة',
+            data: [80, 60, 45, 35, 30],
+            backgroundColor: [
+              'rgba(255, 99, 132, 0.5)',
+              'rgba(54, 162, 235, 0.5)',
+              'rgba(255, 206, 86, 0.5)',
+              'rgba(75, 192, 192, 0.5)',
+              'rgba(153, 102, 255, 0.5)'
+            ],
+            borderColor: [
+              'rgba(255, 99, 132, 1)',
+              'rgba(54, 162, 235, 1)',
+              'rgba(255, 206, 86, 1)',
+              'rgba(75, 192, 192, 1)',
+              'rgba(153, 102, 255, 1)'
+            ],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false
+        }
+      });
+    }
+    
+    // التحقق من صحة النموذج
+  
+  // مصفوفة لتخزين جهات الاتصال
+  let contacts = [];
+  
+  function validateForm() {
+    // تنظيف رسائل الخطأ
+    document.getElementById('nameError').textContent = '';
+    document.getElementById('emailError').textContent = '';
+    document.getElementById('phoneError').textContent = '';
+    
+    // التحقق من الحقول
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    
+    let isValid = true;
+    
+    if (name.length < 3) {
+      document.getElementById('nameError').textContent = 'الاسم يجب أن يكون أكثر من 3 أحرف';
+      isValid = false;
+    }
+    
+    if (!/^\S+@\S+\.\S+$/.test(email)) {
+      document.getElementById('emailError').textContent = 'البريد الإلكتروني غير صالح';
+      isValid = false;
+    }
+    
+    if (!/^[0-9]{10,15}$/.test(phone)) {
+      document.getElementById('phoneError').textContent = 'رقم الهاتف يجب أن يكون بين 10 إلى 15 رقمًا';
+      isValid = false;
+    }
+    
+    if (isValid) {
+      addContact(name, email, phone);
+      // مسح النموذج بعد الإضافة
+      document.getElementById('name').value = '';
+      document.getElementById('email').value = '';
+      document.getElementById('phone').value = '';
+    }
+    
+    return false; // لمنع إعادة تحميل الصفحة
+  }
+  
+  function addContact(name, email, phone) {
+    const newContact = {
+      id: Date.now(), // إنشاء معرف فريد
+      name,
+      email,
+      phone
+    };
+    
+    contacts.push(newContact);
+    renderContacts();
+  }
+  
+  function deleteContact(id) {
+    contacts = contacts.filter(contact => contact.id !== id);
+    renderContacts();
+  }
+  
+  function editContact(id) {
+    const contact = contacts.find(c => c.id === id);
+    if (contact) {
+      document.getElementById('name').value = contact.name;
+      document.getElementById('email').value = contact.email;
+      document.getElementById('phone').value = contact.phone;
+      
+      // حذف الجهة من المصفوفة بعد ملء النموذج للتعديل
+      deleteContact(id);
+    }
+  }
+  
+  function renderContacts() {
+    const container = document.getElementById('contactsContainer');
+    // مسح المحتوى الحالي مع الحفاظ على العنوان
+    container.innerHTML = '<h2>جهات الاتصال المضافة</h2>';
+    
+    if (contacts.length === 0) {
+      container.innerHTML += '<p>لا توجد جهات اتصال مضافة بعد</p>';
+      return;
+    }
+    
+    contacts.forEach(contact => {
+      const card = document.createElement('div');
+      card.className = 'contact-card';
+      card.innerHTML = `
+        <div class="contact-info">
+          <p><strong>الاسم:</strong> ${contact.name}</p>
+          <p><strong>الإيميل:</strong> ${contact.email}</p>
+          <p><strong>الهاتف:</strong> ${contact.phone}</p>
+        </div>
+        <div class="contact-actions">
+          <button class="edit-btn" onclick="editContact(${contact.id})">تعديل</button>
+          <button class="delete-btn" onclick="deleteContact(${contact.id})">حذف</button>
+        </div>
+      `;
+      container.appendChild(card);
+    });
+  }
+  
+  // عرض أي جهات اتصال موجودة عند تحميل الصفحة
+  document.addEventListener('DOMContentLoaded', renderContacts);
+</script>
+</body>
+</html>
